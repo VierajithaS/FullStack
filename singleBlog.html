@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Le monde en noir &amp; blanc</title>
+        <link rel="stylesheet" href="/css/normalize.css" />
+        <link rel="stylesheet" href="/css/nb.css" />
+        <script src="/js/jquery-3.4.1.min.js"></script>
+        <script src="/js/menu.js"></script>
+    </head>
+    <body>
+        <header id="mainHeader">
+            <img src="/images/layout/nb_logo.svg" alt="Logo N&B" id="logoImg" />
+            <h1>Le monde en noir &amp; blanc</h1>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="galleries.html">Galeries</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+            <button id="menuToggle"><img src="/images/layout/hamburger.svg" alt="Ouvrir / Fermer le menu" /></button>
+        </header><!--Ici se termine le #mainHeader-->
+        <section id="pageContent" class="twoCols text blog">
+            <main id="leftCol">
+                <h1 id="pageTop">Lorem ipsum dolor</h1>
+                <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Curabitur suscipit pretium orci, sed vulputate elit efficitur in. Donec vitae tristique nunc, <em>non malesuada mauris</em>. Suspendisse at sem rutrum, imperdiet ante non, feugiat mi. Vestibulum bibendum nisi eget leo congue semper. Donec risus dolor, gravida consequat rhoncus eu, volutpat eu lacus. Suspendisse tristique sapien eu massa commodo sagittis. Maecenas ligula tellus, consequat in ipsum ac, <a href="http://www.didaxo.be" target="_blank">egestas congue neque</a>. Etiam suscipit nisl non nunc sodales commodo in faucibus dui. In in tellus ut lectus pulvinar tempus et eget ex. Proin molestie ligula in nisi commodo finibus. Fusce molestie, diam ac semper dapibus, nulla velit elementum risus, vitae blandit sem neque id tellus. Nunc convallis neque lectus, ac ornare velit auctor vitae. Pellentesque nec massa varius ex fringilla lacinia vitae quis libero.</p>
+                <ol>
+                    <li><a href="#ch1">Item 1</a></li>
+                    <li><a href="#ch2">Item 2</a></li>
+                    <li><a href="/downloads/images.zip">Item 3</a></li>
+                    <li><a href="/downloads/document.pdf" download="MonDocument.pdf">Item 4</a></li>
+                </ol>
+                <h2 id="ch1">Integer tempor</h2>
+                <figure>
+                    <img src="/images/blogArticle.jpg" alt="Image d'illustration montrant un appareil photo" />
+                    <figcaption>Vestibulum venenatis tortor non sem porta elementum</figcaption>
+                </figure>
+                <p>Integer tempor, arcu eget consequat consectetur, lectus ligula euismod nibh, quis accumsan nunc mi interdum elit. Praesent in malesuada turpis. Sed egestas, odio sit amet volutpat egestas, orci dolor congue elit, quis gravida neque dui a est. Vestibulum venenatis tortor non sem porta elementum a et eros. Nam imperdiet vulputate eros non dictum. Integer et sem a lorem viverra consequat. Maecenas sit amet fringilla lorem, dictum accumsan orci. Aenean iaculis sem sed mi tincidunt, vel porttitor augue blandit. Praesent vitae elementum felis.</p>
+                <h2 id="ch2">Fusce mollis</h2>
+                <p>Fusce mollis, mauris a tincidunt mollis, nisl augue bibendum est, ac faucibus nibh orci posuere lectus. Cras eget turpis vitae ipsum bibendum pulvinar sodales in ligula. Nam sit amet turpis arcu. Nulla nulla quam, suscipit vitae molestie sit amet, efficitur eu augue. Nunc ultricies ut justo ac ultrices. Quisque finibus rutrum velit. Etiam bibendum leo at nunc cursus, eu ultrices sapien porttitor.</p>
+                <dl>
+                    <dt>Terme 1</dt>
+                    <dd>Magna eget luctus condimentum, ex metus iaculis libero, rutrum hendrerit eros neque facilisis nulla.</dd>
+                    <dt>Terme 2</dt>
+                    <dd>Aenean ornare dolor nec lorem rhoncus efficitur.</dd>
+                </dl>
+                <p>Nullam eleifend pellentesque nibh ac volutpat. Nulla aliquet nisl ut est pretium scelerisque. Aenean molestie, magna eget luctus condimentum, ex metus iaculis libero, rutrum hendrerit eros neque facilisis nulla. Pellentesque faucibus nunc at urna interdum ultrices. Phasellus eros tellus, lobortis ac vulputate non, pretium sit amet risus. Morbi iaculis orci viverra odio molestie, eu porttitor nibh vehicula. Praesent viverra erat a sem maximus, et scelerisque orci commodo. Aenean suscipit mauris dolor, sed molestie purus tempus quis. Nam semper metus quis ex sollicitudin, eu tincidunt justo luctus. Proin lobortis erat ut enim elementum, viverra sagittis tortor tristique. Donec vel arcu mauris. Aenean ornare dolor nec lorem rhoncus efficitur. Quisque ultricies ante ac sapien convallis auctor. Nulla sit amet dapibus enim.</p>
+                <p>Fusce ac iaculis arcu. Fusce nec turpis ipsum. Aenean nec eleifend augue, at placerat justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero quam, posuere quis consequat hendrerit, mollis quis dolor. Nullam vel risus in urna venenatis volutpat sit amet eu nibh. Vestibulum vel felis fermentum, rutrum turpis et, pulvinar neque. Quisque sed ultricies augue. Donec est magna, congue ut dapibus sed, tincidunt id ipsum.</p>
+                <p><a href="#pageTop">Retour en haut de la page</a></p>
+            </main>
+            <aside id="rightCol">
+                <section id="blogSearch">
+                    <h1><label for="search">Rechercher</label></h1>
+                    <input type="search" name="search" id="search" /> 
+                </section>
+                <section id="categories">
+                    <h1>Catégories</h1>
+                    <ul>
+                        <li><a href="#">Matériel <span>11</span></a></li><!-- balise "span" = conteneur générique sans retour à la ligne avant ou après le span (élément in line) différent de la balise "div" (élément bloc)-->
+                        <li><a href="#">Lightroom<span>3</span></a></li>
+                        <li><a href="#">Techniques<span>2</span></a></li>
+                        <li><a href="#">Voyages<span>4</span></a></li>
+                        <li><a href="#">Expositions<span>15</span></a></li>
+                    </ul>
+                </section>
+                <section id="blogArchives">
+                    <h1>Archives</h1>
+                    <div>
+                        <h2><a href="#">2018<span>21</span></a></h2>
+                        <ul>
+                            <li><a href="#">Janvier 2018<span>2</span></a></li>
+                            <li><a href="#">Février 2018<span>4</span></a></li>
+                            <li><a href="#">Avril 2018<span>3</span></a></li>
+                            <li><a href="#">Mai 2018<span>3</span></a></li>
+                            <li><a href="#">Juin 2018<span>4</span></a></li>
+                            <li><a href="#">Septembre 2018<span>3</span></a></li>
+                            <li><a href="#">Décembre 2018<span>2</span></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2><a href="#">2019<span>11</span></a></h2>
+                        <ul>
+                            <li><a href="#">Janvier 2019<span>3</span></a></li>
+                            <li><a href="#">Février 2019<span>1</span></a></li>
+                            <li><a href="#">Mars 2019<span>2</span></a></li>
+                            <li><a href="#">Mai 2019<span>4</span></a></li>
+                            <li><a href="#">Septembre 2019<span>1</span></a></li>
+                        </ul>
+                    </div>
+                </section>
+            </aside>
+        </section><!--Ici se termine le #pageContent-->
+        <footer id="mainFooter">
+            <p>&copy; Copyright DB - 2022</p>
+        </footer><!--Ici se termine le #mainFooter-->
+    </body>
+</html>
